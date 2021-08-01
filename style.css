@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -117,8 +117,12 @@ header ul li a {
 .projects-grid a {
   text-decoration: none;
 }
+.project-item {
+  min-height: 275px;
+}
 .project-image {
-  height: calc(100% - 2rem);
+  /* height: calc(100% - 2rem); */
+  height: 75%;
   width: 100%;
   object-fit: cover;
   opacity: 0.85;
@@ -198,4 +202,3 @@ header ul li a {
   transition: 0.3s;
   font-size: 1.17rem;
 }
-
