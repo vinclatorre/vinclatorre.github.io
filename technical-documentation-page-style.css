@@ -1,0 +1,129 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+body
+{
+  background-color: rgba(241, 231, 254, 1);
+}
+.wrapper
+{
+  display: flex;
+  position: relative;
+}
+.wrapper .sidebar
+{
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  background: rgba(102, 51, 153, 1);
+  padding: 30px 0;
+}
+.wrapper .sidebar h2
+{
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.wrapper .sidebar ul li
+{
+  padding: 15px;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  border-top: 1px solid rgba(225,225,225,0.05);
+}
+.wrapper .sidebar ul li a
+{
+  color: #bdb8d7;
+  display: block;
+}
+.wrapper .sidebar ul li:hover
+{
+  background: rgba(165, 55, 253, 1);
+}
+.wrapper .sidebar ul li:hover a
+{
+  color: #fff;
+}
+@media screen and (max-width: 700px) {
+  .wrapper .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .wrapper .sidebar ul li a {float: left;}
+}
+@media screen and (max-width: 400px) {
+  .wrapper .sidebar ul li a {
+    text-align: center;
+    float: none;
+  }
+}
+#main-doc
+{
+  position: absolute;
+  margin-left: 220px;
+  text-align: left;
+  line-height: 2; 
+}
+@media only screen and (max-width: 400px) {
+  #main-doc {
+    margin: 0 0 0 0;
+  }
+}
+section
+{
+  margin: 15px;
+  padding: 0 50px 0 50px;
+  color: rgba(102, 51, 153, 1);
+}
+
+section h2
+{
+  font-size: 1.8rem;
+  text-align: center;
+}
+section li
+{
+  list-style: square;
+  margin-left: 50px;
+}
+code {
+    margin-left: 20px;
+    width: 100%;
+    padding: 15px;
+    padding-left: 10px;
+    padding-right: 45px;
+    min-width: 233px;
+  }
+.display
+{
+  display: flex;
+  flex-direction: row;
+}
+.display #img
+{
+  height: 300px;
+  width: 300px;
+  margin-left: 100px;
+}
+@media screen and (max-width: 400px) {
+  .display
+  {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 400px) {
+  .display #img
+  {
+    height: 200px;
+    width: 200px;
+    margin: 0 0 0 0;
+  }
+}

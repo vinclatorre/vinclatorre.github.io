@@ -1,0 +1,104 @@
+body{
+  font-size: 1rem;
+  font-family: comic sans MS;
+  color: black;
+  margin: 0;
+  background: url(https://wallpapercave.com/wp/wp4016050.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center;
+}
+
+header{
+  color: white;
+}
+h1{
+ font-size: 40px;
+}
+
+p{
+ font-size: 1.25rem;
+ margin-top: 0;
+ margin-bottom: 0.5rem;
+}
+
+label{
+  display: flex;
+  align-items: center;  
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+}
+
+input{
+  font-size: inherit;
+  font-family: inherit;
+}
+
+.container {
+  width: 100%;
+  margin: 3.125rem auto 0 auto;
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+form{
+  background: rgba(228, 233, 237, 0.7);
+  padding: 2.5rem 0.625rem;
+  border-radius: 0.25rem;
+}
+
+@media (min-width: 480px) {
+  form {
+    padding: 2.5rem;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.form-group {
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;  
+}
+
+.input-text{
+  display: block;
+  height: 2.5rem;
+  width: 100%;
+  padding: 0.3rem 0.75rem;
+  box-sizing: border-box;
+}
+
+.input-radio,
+.input-checkbox{
+  display: inline-block;
+  margin-right: 0.5rem;
+  min-height: 1rem;
+  min-width: 1rem;
+}
+
+.input-textarea {
+  min-height: 120px;
+  width: 100%;
+  padding: 0.625rem;
+  resize: vertical;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+.submit-button{
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  cursor: pointer;
+}

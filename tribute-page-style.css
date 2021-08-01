@@ -1,201 +1,58 @@
-@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Otomanopee One", sans-serif;
+html {
+  font-size: 10px;
 }
+
 body {
-  background-color: #000;
-  display: flex;
-  flex-direction: column;
-}
-main {
-  flex: 1 0 auto;
+  background-color: #dcdcdc;
+  padding: 20px;
 }
 
-.text-centered {
+h1 {
   text-align: center;
+  font-size: 50px;
+  font-family: "Garamond";
 }
 
-/*Header*/
-
-header {
-  position: fixed;
-  /* top: 0;
-  left: 0; */
-  height: 100px;
-  width: 100%;
-  justify-content: space-between;
-  align-items: center;
-  padding: 40px 100px;
-  background-color: black;
-  z-index: 3;
-}
-
-@media (max-width: 28.75em) {
-  header {
-    justify-content: center;
-  }
-
-  header ul {
-    margin: 0 1rem;
-  }
-}
-header ul {
-  /* position: relative; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-header ul li {
-  /* position: relative; */
-  list-style: none;
-}
-header ul li a {
-  /* position: relative; */
-  margin: 0 15px;
-  text-decoration: none;
-  color: #fff;
-  font-weight: 500px;
-  letter-spacing: 2px;
-}
-
-/*Welcome section*/
-
-.welcome-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 70vh;
-  background-color: #fff;
-  /* position: relative; */
-  margin-top: 100px;
-}
-.welcome-section > h1 {
-  letter-spacing: 2px;
-  font-size: 4rem;
-}
-.welcome-section > p {
-  letter-spacing: 2px;
-  font-size: 1.5rem;
-}
-
-/*Project section*/
-
-.project-section {
-  width: 100%;
+h2 {
   text-align: center;
-  padding: 2.5rem;
-  background-color: #000;
-  /* position: relative; */
-  color: #fff;
+  font-size: 30px;
+  font-family: "Garamond";
 }
-.projects-section-header {
+p {
+  text-align: center;
+  font-family: "Garamond";
+  font-size: 20px;
+}
+
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+  font-family: "Garamond";
+  font-size: 20px;
+}
+
+li {
+  margin: 16px 0;
+}
+
+img {
   max-width: 100%;
-  font-size: 2rem;
-  padding: 0 0 2rem 0;
-}
-.projects-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  grid-column-gap: 30px;
-}
-@media (max-width: 30.625em) {
-  .projects-section {
-    padding: 6rem 1rem;
-  }
-  .projects-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-  }
-}
-.projects-grid a {
-  text-decoration: none;
-}
-.project-image {
-  height: calc(100% - 2rem);
-  width: 100%;
-  object-fit: cover;
-  opacity: 0.85;
-}
-.projects-grid .border {
-  border: 1px solid #fff;
-}
-.projects-grid .border:hover {
-  border: 0px solid #fff;
-}
-.projects-grid a:hover img {
-  height: calc(98% - 2rem);
-  width: 98%;
-  opacity: 1;
-  transition: 0.2s;
-}
-.project-title {
-  font-size: 1.5rem;
-  padding: 1rem 0.5rem;
-  color: #fff;
+  display: block;
+  height: auto;
+  margin: 0 auto;
 }
 
-/*Contact section*/
-
-.contact-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 70vh;
-  background-color: #fff;
-  /* position: relative; */
-}
-.contact-section-header > h2 {
-  letter-spacing: 2px;
-  font-size: 3rem;
-}
-@media (max-width: 28.75em) {
-  .contact-section-header > h2 {
-    font-size: 2rem;
-  }
-}
-.contact-section-header > p {
-  letter-spacing: 2px;
-  font-size: 1.2rem;
-  padding: 0.5rem;
-}
-.contact-links {
-  display: flex;
-  letter-spacing: 1px;
-  justify-content: center;
-}
-@media (max-width: 28.75em) {
-  .contact-links {
-    flex-direction: column;
-    letter-spacing: 0;
-  }
-}
-.contact-links a {
-  text-decoration: none;
-}
-.contact-links a img {
-  height: 25px;
-}
-.contact-detail {
-  color: #000;
-  padding: 30px 10px;
-}
-@media (max-width: 28.75em) {
-  .contact-detail {
-    padding: 0;
-  }
-}
-.contact-links a:hover {
-  transform: translateY(3px);
-  transition: 0.3s;
-  font-size: 1.17rem;
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
+#img-div {
+  background: #f1f1f1;
+  padding: 10px;
+}

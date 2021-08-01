@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>technical-documentation-page</title>
+    <link rel="stylesheet" href="technical-documentation-page-style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="wrapper">
+        <nav id="navbar" class="sidebar">
+          <h2>Chess</h2>
+          <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#rules">Rules</a></li>
+            <li><a href="#special_move">Special Move</a></li>
+            <li><a href="#opening">Opening</a></li>
+            <li><a href="#middle_game">Middle Game</a></li>
+            <li><a href="#end_game">End Game</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main id="main-doc">
+      <section id="introduction" class="main-section">
+        <h2>Introduction</h2>
+        <p>Chess is a strategy game born in India in the sixth century, in fact it's one of the oldest games in the world.</p>
+        <p>
+          It is played on a square board called a chessboard made up of 64 houses of alternating colors (black and white), marked horizontally with
+          the numbers 1 to 8 and vertically with the letters A to H. like a Cartesian diagram.
+        </p>
+        <p>Then there are two armies with 16 pieces each, usually whites and blacks.</p>
+      </section>
+      <section id="rules" class="main-section">
+        <h2>Rules</h2>
+        <p>The goal of the game is to checkmate the opponent's king, doing one move each, white always starts first.</p>
+        <p>Armies consist of a king, a queen, two knights, two bishoops, two tower and eight pawns.</p>
+        <p>
+          Pieces can't move in houses where there is an allied piece, but they can move in houses where there are enemy piece making a capture so
+          deleting it from the chessboard. It is said that a piece attacks a square if it can move on it. When the king is in an attacked house it's
+          check, when it's check and every houses where the king can move are attacked it's check mate.
+        </p>
+        <p>Each piece moves differently, these are all movements:</p>
+        <ul>
+          <li>King: can move in every directions one square at time.</li>
+          <li>Queen: can move any number of squares along a rank, file, or diagonal, but cannot leap over other pieces.</li>
+          <li>Rook: can move any number of squares along a rank or file, but cannot leap over other pieces.</li>
+          <li>
+            Knight: can moves to any of the closest squares that are not on the same rank, file, or diagonal (like an "L").The knight is the only
+            piece that can leap over other pieces.
+          </li>
+          <li>Bishops: can move any number of squares along a diagonal but cannot leap over other pieces.</li>
+          <li>
+            Pawn: can move forward to the unoccupied square immediately in front of it, or on its first move it can advance two squares along the same
+            file, a pawn can capture an opponent's piece on a square diagonally in front of it by moving to that square.
+          </li>
+        </ul>
+      </section>
+      <section id="special_move" class="main-section">
+        <h2>Special Move</h2>
+        <p>There are three special move:</p>
+        <ul>
+          <li>
+            Castle: Castling consists of moving the king two squares along the player's first rank toward a rook on the same rank, and then placing
+            the rook on the last square that the king crossed. It is possible only if king and the rook have never been moved, there aren't pieces
+            between king and rool and the king is not in check, and will not pass through or land on any square attacked by an enemy piece.
+          </li>
+          <li>
+            En passant: When a pawn makes a two-step advance from its starting position and there is an opponent's pawn on a square next to the
+            destination square on an adjacent file, then the opponent's pawn can capture it en passant, moving to the square the pawn passed over.
+            This can be done only on the turn immediately following the enemy pawn's two-square advance.
+          </li>
+          <li>
+            Promotion: When a pawn advances to the eighth rank, it is promoted and must be exchanged for the player's choice of queen, rook, bishop,
+            or knight of the same color.
+          </li>
+        </ul>
+      </section>
+      <section id="opening" class="main-section">
+        <h2>Opening</h2>
+        <p>
+          The match start with the opening, in this fase the two player fight to control the center of the board, put the king to safety(usually with
+          castle) and develop pieces in strategic houses.
+        </p>
+        <p>
+          There are a lot of different combination in the opening each of them has a name. These are some of the most popular opening with their
+          respective moves.
+        </p>
+        <div class="display">
+          <ul>
+            <li>Queen Gambit</li>
+            <code> 1.d4 d5 2.c4 </code>
+            <li>Ruy Lopez</li>
+            <code> 1.e4 e5 2.Nf3 Nc6 3.Bb5 </code>
+            <li>English Opening</li>
+            <code> 1.c4 </code>
+            <li>Sicilian Defence</li>
+            <code> 1.e4 c5 </code>
+            <li>French Defence</li>
+            <code> 1.e4 e6 </code>
+          </ul>
+          <img
+            id="img"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Chess_board_blank.svg/1200px-Chess_board_blank.svg.png"
+            alt="chess starting position"
+          />
+        </div>
+      </section>
+      <section id="middle_game" class="main-section">
+        <h2>Middle Game</h2>
+        <p>
+          Once the development of the pieces is finished, start the middle game, in this fase players fight to get an advantage taking advantage of
+          the opponent's weak points and exploiting their own strengths to win the match.
+        </p>
+      </section>
+      <section id="end_game" class="main-section">
+        <h2>End Game</h2>
+        <p>After the middle game when there are fewer pieces on the board start the end game. The strategic foundamental of the end game are:</p>
+        <ul>
+          <li>King activation: since there aren't many pieces on the board , king begin a strong piece that must be moved towards the center.</li>
+          <li>Pedoni: since the chessboard is empty it's very easy to promote one of them so they are very strong if moved in the right way.</li>
+          <li>Zugzwang: it is a delicate position where moving is disadvantageous, then you try to make the opponent move to make him lose</li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>

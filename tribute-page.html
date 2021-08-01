@@ -1,126 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-     <nav id="navbar">
-       <ul>
-         <li><a href="#welcome-section">Home</a></li>
-         <li><a href="#project">Work</a></li>
-         <li><a href="#contact">Contact</a></li>
-       </ul>
-     </nav>
-  </header>
-  <main>
-  <section id="welcome-section" class="welcome-section">
-    <h1 class="text-centered">
-      Hi, i'm Vicenzo 
-    </h1>
-    <p class="text-centered">
-      This is my official portfolio
-    </p>
-  </section>
-  
-  <section id="project" class="project-section">
-    <h2 class="projects-section-header">
-      These are some of my project
-    </h2>
-    <div class="projects-grid">
-      <a href="https://codepen.io/vinclatorre/pen/abJMyBv"
-      target="_blank"
-      class="project-tile"
-      >
-        <div class="border">
-          <img
-          class="project-image"     src="https://assets.codepen.io/6466586/internal/screenshots/pens/abJMyBv.default.png?fit=cover&format=auto&ha=false&height=540&quality=75&v=2&version=1626516254&width=960"
-          alt="project"
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Caparezza tribute page</title>
+    <link rel="stylesheet" href="tribute-page-style.css" />
+  </head>
+  <body>
+    <main id="main">
+      <h1>Caparezza</h1>
+      <p id="tribute-info">Italian Rapper</p>
+      <figure id="img-div">
+        <img
+          id="img"
+          class="center"
+          src="https://www.raduni.org/wp-content/uploads/2021/05/633425_e100ec63cec748f28e432f6a35ecd4a2mv2-1024x568.jpeg"
+          alt="Caparezza with a palette for painting in van gogh's room"
         />
-          <p class="project-title">
-            Tribute Page
-          </p>
-        </div>
-      </a>
-      <a href="https://codepen.io/vinclatorre/pen/ExWMwyX"
-      target="_blank"
-      class="project-tile"
-      >
-        <div class="border">
-          <img
-          class="project-image"
-  src="https://assets.codepen.io/6466586/internal/screenshots/pens/ExWMwyX.default.png?fit=cover&amp;format=auto&amp;ha=false&amp;height=540&amp;quality=75&amp;v=2&amp;version=1624909291&amp;width=960"
-          alt="project"
-        />
-          <p class="project-title">
-            Survey Form
-          </p>
-        </div>
-      </a>
-      <a href="https://codepen.io/vinclatorre/pen/MWmjvjE"
-      target="_blank"
-      class="project-tile"
-      >
-        <div class="border">
-          <img
-          class="project-image"
-  src="https://assets.codepen.io/6466586/internal/screenshots/pens/MWmjvjE.default.png?fit=cover&amp;format=auto&amp;ha=true&amp;height=540&amp;quality=75&amp;v=2&amp;version=1626197145&amp;width=960"
-          alt="project"
-        />
-          <p class="project-title">
-            Technical Documentation Page
-          </p>
-        </div>
-      </a>
-    </div>
-  </section>
-  </main>
-  <footer id="contact" class="contact-section">
-    <div class="contact-section-header">
-      <h2 class="text-centered">
-        Ready to work toghether?
-      </h2>
-      <p class="text-centered">
-        Contact me
-      </p>
-    </div>
-      <div class="contact-links">
-        <div>
-        <a href="#"
-           target="_blank"
-           class="contact-detail"
-           ><img src="https://i.postimg.cc/LsjxL39j/facebook.png">Facebook</a>
-        <a href="#"
-           target="_blank"
-           class="contact-detail"
-           ><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png">GitHub</a>
-        <a href="https://www.freecodecamp.org/fcc61870488-e92d-4d59-84dc-d2b628023573"
-           id="profile-link"
-           target="_blank"
-           class="contact-detail"
-           ><img src="https://avatars.githubusercontent.com/u/70107528?s=200&v=4">Freecodecamp</a>
-        </div>
-        <div>
-        <a href="#"
-           target="_blank"
-           class="contact-detail"
-           ><img src="https://i.postimg.cc/fLK5gW0L/twitter.png">Twitter</a>
-        <a href="#"
-           target="_blank"
-           class="contact-detail"
-           ><img src="https://www.providence-place.com/wp-content/uploads/2019/11/64800-icons-symbol-computer-logo-prototype-email-300x229.png">Email</a>
-        <a href="#"
-           target="_blank"
-           class="contact-detail"
-           ><img src="https://www.seekpng.com/png/detail/135-1351194_telephone-logo-png-tel-icon.png">Telephone</a>
-        </div>
-      </div>
-    </div>
-  </footer>
-</body>
+        <p>Caparezza with a palette for painting in van gogh's room</p>
+      </figure>
+      <h2>Caparezza's Time line</h2>
+      <ul class="list-container,list-item">
+        <li><strong>1973</strong>- Born in molfetta,Italy</li>
+        <li><strong>1995</strong>- Start his music career with the name of Mikimix, but it wasn't very successfull</li>
+        <li>
+          <strong>2000</strong>- Grow out his hair and beard and changed his name in Caparezza(which means curly head). Then he releases the first
+          album(?!)
+        </li>
+        <li>
+          <strong>2003</strong>- Releases the second album(Verità supposte) which made good success, specially for "Fuori dal tunnel" that became a
+          hit
+        </li>
+        <li><strong>2006</strong>- Releases third album(Habemus Capa)</li>
+        <li>
+          <strong>2008</strong>- Release fourth album(le dimensioni del mio caos) which is a soundtrack of his book "Saghe mentali, un viaggio
+          allucinante nella testa di capa". This book is inspired by the divin comedy
+        </li>
+        <li>
+          <strong>2011</strong>- Release the fifth(il sogno eretico) album announced by short video on youtube and the single goodbye
+          malinconia(feat.Tony Hadley)
+        </li>
+        <li><strong>2014</strong>- Release on his youtube channel a videoclip of his new song named "Cover" that anticipates the sixth album</li>
+        <li>
+          <strong>2017</strong>- Announced on his facebook page Prisoner 709. The theme of this album is the "mental prison" of the artist also there
+          are manty reference to tinnitus which changed the life of the rapper from 2015. So it's a reflective album
+        </li>
+        <li>
+          <strong>2021</strong>- Is back with Exuvia which is the sequel of Prisoner 709. It rapresents the escape from the prison to a forest to make
+          lose its tracks
+        </li>
+      </ul>
+      <h2>For more info about Caparezza <a id="tribute-link" target="_blank" href="https://it.wikipedia.org/wiki/Caparezza">Click Here</a></h2>
+    </main>
+  </body>
 </html>
-
